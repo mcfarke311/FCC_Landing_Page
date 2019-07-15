@@ -1,0 +1,17 @@
+:root {
+    --outer-space: #424B54;
+    --straw: #E1CE7A;
+    --desert-sand: #EBCFB2;
+    --silver-pink: #C5BAAF;
+    --white: #FFFFFF;
+}
+
+@media only screen and (max-width: 600px) {
+    #logo {
+        height: 42px;
+    }
+}
+
+nav {
+    background-color: var(--outer-space);
+}
